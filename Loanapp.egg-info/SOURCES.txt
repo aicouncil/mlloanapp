@@ -20,4 +20,9 @@ Loanapp/processing/__init__.py
 Loanapp/processing/data_handling.py
 Loanapp/processing/data_preprocessing.py
 Loanapp/trained_models/classification.pkl
+loanapp.egg-info/PKG-INFO
+loanapp.egg-info/SOURCES.txt
+loanapp.egg-info/dependency_links.txt
+loanapp.egg-info/requires.txt
+loanapp.egg-info/top_level.txt
 tests/test_predictions.py

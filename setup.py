@@ -3,7 +3,8 @@ from setuptools import find_packages, setup
 
 #Metadata of package
 
-NAME = 'Loanapp'
+NAME = 'loanapp'
+PROJ_NAME = 'Loanapp'
 DESCRIPTION = 'Loanapp_prediction_model'
 URL = 'https://github.com/aicouncil'
 EMAIL = 'info@aicouncil.in'
@@ -27,7 +28,7 @@ except FileNotFoundError:
 
 #Load the packages's version 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-PACKAGE_DIR = os.path.join(ROOT_DIR, NAME)
+PACKAGE_DIR = os.path.join(ROOT_DIR, PROJ_NAME)
 #print(PACKAGE_DIR)
 
 

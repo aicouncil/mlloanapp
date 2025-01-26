@@ -22,7 +22,7 @@ def generate_predictions():
     print(result)
     return result
 '''
-def generate_predictions(data_input):
+def make_predictions(data_input):
     try:
         data = pd.DataFrame(data_input , columns = config.FEATURES)
         #print(data)
